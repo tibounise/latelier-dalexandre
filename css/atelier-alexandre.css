@@ -77,7 +77,7 @@ body {
 
 .center-intro {
   width: 500px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -86,8 +86,14 @@ body {
   border-radius: 5px;
 }
 
+.center-intro a {
+  color: #eee;
+  text-decoration: underline;
+}
+
 .img-bkg {
-  background: url('../img/colin.jpg');
+  background: url('../img/background.jpg');
+  background-size: cover;
 }
 
 .vertical-centering-wrapper {
@@ -99,4 +105,8 @@ body {
 .vertical-centered-wrapper {
   display: table-cell;
   vertical-align: middle;
+}
+
+.quick-links > a > i {
+  margin-right: 10px;
 }
