@@ -20,7 +20,6 @@ function envoyerMail($mail,$message) {
         <h1 class="title-logo">L'Atelier d'Alexandre</h1>
         <ul>
           <a href="index.html"><li>Accueil</li></a>
-          <a href="whoweare.html"><li>Qui sommes-nous ?</li></a>
           <a href="plek.html"><li>La machine PLEK</li></a>
           <a href="realisations.html"><li>Nos réalisations</li></a>
           <a href="atelier.html"><li>Nous trouver</li></a>
