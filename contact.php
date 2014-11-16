@@ -90,6 +90,9 @@ function envoyerMail($mail,$message) {
         <?php
           } else {
             envoyerMail($_POST['mail'],$_POST['message']);
+        ?>
+        <h2>Votre message a bien été envoyé !</h2>
+        <?php
           }
         ?>
     </div>
