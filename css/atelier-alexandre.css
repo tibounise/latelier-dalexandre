@@ -91,11 +91,6 @@ body {
   text-decoration: underline;
 }
 
-.img-bkg {
-  background: url('../img/background.jpg');
-  background-size: cover;
-}
-
 .vertical-centering-wrapper {
   display: table;
   height: 100%;
@@ -132,6 +127,29 @@ body {
   border: 1px solid #ddd;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+video#intro-video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('../img/intro_cover.jpg');
+  background-size:cover;
+}
+@media (min-aspect-ratio: 16/9) {
+  video#intro-video{
+    height: 300%;
+    top: -100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  video#intro-video {
+    width: 300%;
+    left: -100%;
+  }
 }
 
 .btn-danger {
