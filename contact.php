@@ -1,7 +1,7 @@
 <?php
 
 function envoyerMail($mail,$message) {
-
+  mail('aeoaeoaeoaeoaeoaoeoaoeoaoeoaoeoaoeoaoeoaoeoaoe@tibounise.com','Nouveau mail de la boite de contact',"Envoyé de la part de $mail : \n $message");
 }
 
 ?>
@@ -88,6 +88,8 @@ function envoyerMail($mail,$message) {
           </div>
         </div>
         <?php
+          } else {
+            envoyerMail($_POST['mail'],$_POST['message']);
           }
         ?>
     </div>
